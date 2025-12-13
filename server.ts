@@ -7,7 +7,7 @@ import fetch from 'node-fetch';
 dotenv.config();
 
 const app = express();
-const PORT = processes.env.PORT || 3000;
+const PORT = processes.env.PORT || 3000; 
 
 app.use(cors());
 app.use(express.json());
