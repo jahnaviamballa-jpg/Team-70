@@ -6,15 +6,15 @@ export interface SearchResult {
   author?: string;
   score?: number;
   snippet?: string; // Short preview provided by search engine
-  text?: string;    // Full text content if available 
+  text?: string;    // Full text content if available
 }
 
-export interface Searchresponse {
+export interface SearchResponse {
   results: SearchResult[];
   summary: string;
 }
 
-export interface SaveDSearch {
+export interface SavedSearch {
   id: string;
   query: string;
   timestamp: number;
