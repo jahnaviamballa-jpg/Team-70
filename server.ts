@@ -1,13 +1,13 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenAI } from "@Google/Genai";
 import fetch from 'node-fetch';
 
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = processes.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
@@ -16,7 +16,7 @@ app.use(express.json());
 interface SearchRequestBody {
   query: string;
   filter: string;
-  model: 'gemini' | 'openai' | 'grok';
+  model: 'gemini' | 'open ai' | 'grok';
   apiKeys?: {
     exa?: string;
     gemini?: string;
