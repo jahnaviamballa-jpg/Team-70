@@ -1,5 +1,5 @@
 {
   "name": "SmartSearch AI",
-  "description": "A full-stack AI-powered search engine using Exa for retrieval and Gemini for summarization.",
+  "description": "A full-stack AI-powered search engine using Exa  retrieval and Gemini for summarization.",
   "requestFramePermissions": []
 }
