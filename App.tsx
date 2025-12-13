@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Layout } from './components/Layout';
-import { SearchInput } from './components/seararchInput';
+import { SearchInput } from './components/SearchInput';
 import { FilterBar } from './components/FilterBar';
-import { ResultsSection } from'./components/ResultsSection';
-import { AISummary } from './components/AISsmmary';
+import { ResultsSection } from './components/ResultsSection';
+import { AISummary } from './components/AISummary';
 import { SavedSearches } from './components/SavedSearches';
-import { SettingsModal } from './components/SettingsModal'; 
+import { SettingsModal } from './components/SettingsModal';
 import { useSearch } from './hooks/useSearch';
 import { FilterType, ModelProvider } from './types';
 import { Settings, Bookmark, Search as SearchIcon } from 'lucide-react';
@@ -30,7 +30,7 @@ export default function App() {
     savedSearches,
     saveCurrentSearch,
     deleteSavedSearch
-  } = useSearrh();
+  } = useSearch();
 
   // Dark mode initialization
   useEffect(() => {
