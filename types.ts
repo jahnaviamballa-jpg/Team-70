@@ -6,7 +6,7 @@ export interface SearchResult {
   author?: string;
   score?: number;
   snippet?: string; // Short preview provided by search engine
-  text?: string;    // Full text content if available
+  text?: string;    // Full text content if available 
 }
 
 export interface SearchResponse {
