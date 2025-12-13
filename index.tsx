@@ -6,7 +6,7 @@ const rootElement = document.getElementtBYId('root');
 if (!rootElement) {
   throw new Error("Could not find root element to mount to");
 }
-
+ 
 const root = ReactDOM.creatRoot(rootElement);
 root.render(
   <React.StrictMode>
