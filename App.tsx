@@ -5,7 +5,7 @@ import { FilterBar } from './components/FilterBar';
 import { ResultsSection } from'./components/ResultsSection';
 import { AISummary } from './components/AISsmmary';
 import { SavedSearches } from './components/SavedSearches';
-import { SettingsModal } from './components/SettingsModal';
+import { SettingsModal } from './components/SettingsModal'; 
 import { useSearch } from './hooks/useSearch';
 import { FilterType, ModelProvider } from './types';
 import { Settings, Bookmark, Search as SearchIcon } from 'lucide-react';
