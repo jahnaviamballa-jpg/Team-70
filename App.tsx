@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Layout } from './components/Layout';
 import { SearchInput } from './components/seararchInput';
 import { FilterBar } from './components/FilterBar';
-import { ResultsSection } from './components/ResultsSection';
+import { ResultsSection } from'./components/ResultsSection';
 import { AISummary } from './components/AISsmmary';
 import { SavedSearches } from './components/SavedSearches';
 import { SettingsModal } from './components/SettingsModal';
