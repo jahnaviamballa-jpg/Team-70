@@ -11,7 +11,7 @@
 Traditional search engines provide a list of links but **do not help users quickly understand, analyze, or compare information** from multiple sources. Users often waste time opening many pages, reading long articles, and manually summarizing content.
 
 There is a need for a **smart, AI-powered search system** that:
-
+ 
 * Retrieves **real-time web results**
 * Extracts **meaningful content**
 * Uses **AI to summarize, analyze, and evaluate information**
