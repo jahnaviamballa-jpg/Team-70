@@ -15,7 +15,7 @@ There is a need for a **smart, AI-powered search system** that:
 * Retrieves **real-time web results**
 * Extracts **meaningful content**
 * Uses **AI to summarize, analyze, and evaluate information**
-* Presents everything in a **clean and user-friendly interface**
+* Presents everything in a **clean and user-friendly interface** 
 
 ---
 
