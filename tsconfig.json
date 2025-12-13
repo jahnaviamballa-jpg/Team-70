@@ -6,7 +6,7 @@
     "module": "ESNext",
     "lib": [
       "ES2022",
-      "DOM",
+      "DOM", 
       "DOM.Iterable"
     ],
     "skipLibCheck": true,
