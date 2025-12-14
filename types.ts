@@ -9,12 +9,12 @@ export interface SearchResult {
   text?: string;    // Full text content if available
 }
 
-export interface SearchResponse {
+export interface Search Response {
   results: SearchResult[];
   summary: string;
 }
 
-export interface SavedSearch {
+export interface   {
   id: string;
   query: string;
   timestamp: number;
