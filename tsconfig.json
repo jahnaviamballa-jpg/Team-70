@@ -14,7 +14,7 @@
       "node"
     ],
     "moduleResolution": "bundler",
-    "isolatedModules": true,
+    "isolateModules": true,
     "moduleDetection": "force",
     "allowJs": true,
     "jsx": "react-jsx",
@@ -23,7 +23,7 @@
         "./*"
       ]
     },
-    "allowImportingTsExtensions": true,
+    "allowImportingTSExtensions": true,
     "noEmit": true
   }
 }
