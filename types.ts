@@ -2,7 +2,7 @@ export interface SearchResult {
   id: string;
   title: string;
   url: string;
-  publishedDate?: string;
+  published Date?: string;
   author?: string;
   score?: number;
   snippet?: string; // Short preview provided by search engine
@@ -18,7 +18,7 @@ export interface   {
   id: string;
   query: string;
   timestamp: number;
-  model: ModelProvider;
+  model: Model Provider;
   filter: FilterType;
 }
 
